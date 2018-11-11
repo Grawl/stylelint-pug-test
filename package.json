@@ -1,1 +1,16 @@
-{	"private": true,	"engines": {		"node": "^9.11.2",		"yarn": "^1.10.1"	},	"scripts": {		"lint-style": "stylelint test/style.css",		"lint-style-in-html": "stylelint test/index.html",		"lint-style-in-pug": "stylelint test/index.pug"	},	"devDependencies": {		"@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",		"stylelint": "^9.8.0"	}}
+{
+	"private": true,
+	"engines": {
+		"node": "^9.11.2",
+		"yarn": "^1.10.1"
+	},
+	"scripts": {
+		"lint-style": "stylelint test/style.css",
+		"lint-style-in-html": "stylelint test/index.html",
+		"lint-style-in-pug": "stylelint test/index.pug"
+	},
+	"devDependencies": {
+		"@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
+		"stylelint": "^9.8.0"
+	}
+}
